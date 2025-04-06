@@ -20,7 +20,7 @@ def get_user_info(
         "user_id": user_id,
         "Час": current_time,
         "Версія": x_client_version,
-        "Повідомлення": f"Hello, user {user_id}!"
+        "Повідомлення": f"Hello, user {user_id}!, час {current_time}, версія {x_client_version}"
     }
 
 
